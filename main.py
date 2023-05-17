@@ -9,7 +9,6 @@ while dia_inicial <= dias_finais:
     break
   else:
     dia_inicial += 1
-    montante = montante * 1.1
-  
+    montante = montante * 1.01
 
 print("Ao final voce tera um total de: {:.2f} reais".format(montante))
